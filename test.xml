@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+    <Member Name="A">Value A</Member>
+    <Member Name="B">Value B</Member>
+    <Member Name="C">Value C</Member>
+</Root>
