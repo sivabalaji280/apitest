@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 # ----------------------------
 # Configuration
 # ----------------------------
-ACCESS_TOKEN = "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"  # GitHub personal access token
+ACCESS_TOKEN = "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"  # GitHub personal access token
 REPO_NAME = "sivabalaji280/apitest"            # Format: owner/repo
 PR_NUMBER = 1                                # Pull request number
 
@@ -44,7 +44,7 @@ g = Github(ACCESS_TOKEN)
 repo = g.get_repo(REPO_NAME)
 pr = repo.get_pull(PR_NUMBER)
 
-# print(f"Modified <Member> blocks in PR #{PR_NUMBER}:")
+print(f"Modified <Member> blocks in PR #{PR_NUMBER}:")
 
 # value = pr.get_files()
 # for file in value:
@@ -52,11 +52,15 @@ pr = repo.get_pull(PR_NUMBER)
 
 
 for file in pr.get_files():
+    # print("test")
+    print(file.filename)
     if file.filename.endswith(".xml"):
+        print("test")
         # Fetch old and new content
         old_xml = file.contents_url.replace("https://api.github.com/repos/", "https://raw.githubusercontent.com/").replace(f"/{pr.base.ref}", f"/{pr.base.ref}")
         new_xml = file.contents_url.replace("https://api.github.com/repos/", "https://raw.githubusercontent.com/").replace(f"/{pr.head.ref}", f"/{pr.head.ref}")
-
+        print(old_xml)
+        print(new_xml)
         # Simple way to fetch raw XML content
         import requests
         old_resp = requests.get(old_xml)
