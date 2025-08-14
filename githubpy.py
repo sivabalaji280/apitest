@@ -4,9 +4,9 @@ import xml.etree.ElementTree as ET
 # ----------------------------
 # Configuration
 # ----------------------------
-ACCESS_TOKEN = "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"  # GitHub personal access token
+ACCESS_TOKEN = "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"  # GitHub personal access token
 REPO_NAME = "sivabalaji280/apitest"            # Format: owner/repo
-PR_NUMBER = 1                                # Pull request number
+PR_NUMBER = 7                                # Pull request number
 
 # ----------------------------
 # Helper functions
