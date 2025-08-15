@@ -9729,7 +9729,7 @@
   </Member>
   <Member Name="Mode" DataType="DINT" Dimension="0" Radix="Decimal" Hidden="false" ExternalAccess="Read/Write">
     <Description><![CDATA[
-      Node address of the target device  network (1–255).  
+      Node address of the target device on network (1–255).  
     ]]></Description>
   </Member>
   <Member Name="Function" DataType="SINT" Dimension="0" Radix="Decimal" Hidden="false" ExternalAccess="Read/Write">
