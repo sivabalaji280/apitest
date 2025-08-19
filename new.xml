@@ -66,7 +66,7 @@
   </Member>
    <Member Name="Mode 3" DataType="DINT" Dimension="0" Radix="Decimal" Hidden="false" ExternalAccess="Read/Write">
     <Description><![CDATA[
-      Node address of the target device  network (1–255).  
+      Node address of the target device in network (1–255).  
     ]]></Description>
   </Member>
   <Member Name="Function 4" DataType="SINT" Dimension="0" Radix="Decimal" Hidden="false" ExternalAccess="Read/Write">
@@ -77,6 +77,7 @@
     ]]></Description>
   </Member>
 </Members>
+
 
 
 
