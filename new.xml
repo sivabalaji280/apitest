@@ -6,6 +6,7 @@
       2 - Enable the command: Polling and trigger allowed only. 
       3 - Enable the command. 
       4 - Enable the command
+      5 - Enable the command
     ]]></Description>
   </Member>
   <Member Name="Mode" DataType="DINT" Dimension="0" Radix="Decimal" Hidden="false" ExternalAccess="Read/Write">
@@ -1361,3 +1362,4 @@
     ]]></Description>
   </Member>
 </Members>
+
