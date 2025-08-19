@@ -5,11 +5,12 @@
       1 - Enable the command: Trigger allowed one and only.  
       2 - Enable the command: Polling and trigger allowed only. 
       3 - Enable the command. 
+      4 - Eable the command 
     ]]></Description>
   </Member>
   <Member Name="Mode" DataType="DINT" Dimension="0" Radix="Decimal" Hidden="false" ExternalAccess="Read/Write">
     <Description><![CDATA[
-      Node address of the target device  network (1–255).  
+      Node address of the target device  network (1–255).  This is new .
     ]]></Description>
   </Member>
   <Member Name="Function" DataType="SINT" Dimension="0" Radix="Decimal" Hidden="false" ExternalAccess="Read/Write">
@@ -25,6 +26,7 @@
       1 - Enable the command: Trigger allowed one and only.  
       2 - Enable the command: Polling and trigger allowed only. 
       3 - Enable the command. 
+      4 - Enable the command. 
     ]]></Description>
   </Member>
   <Member Name="Mode" DataType="DINT" Dimension="0" Radix="Decimal" Hidden="false" ExternalAccess="Read/Write">
@@ -19142,3 +19144,4 @@
     ]]></Description>
   </Member>
 </Members>
+
