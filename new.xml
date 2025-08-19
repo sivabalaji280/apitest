@@ -27,6 +27,19 @@
       2 - Enable the command: Polling and trigger allowed only. 
     ]]></Description>
   </Member>
+   <Member Name="Mode" DataType="DINT" Dimension="0" Radix="Decimal" Hidden="false" ExternalAccess="Read/Write">
+    <Description><![CDATA[
+      Node address of the target device  network (1–255).  
+    ]]></Description>
+  </Member>
+  <Member Name="Function" DataType="SINT" Dimension="0" Radix="Decimal" Hidden="false" ExternalAccess="Read/Write">
+    <Description><![CDATA[
+      Function code for the command.  
+      1, 2, 3, 4, 5, 6, 15 and 16 and 17 allowed for master and slave architecture.  
+      30 allowed for slave only.  
+    ]]></Description>
+  </Member>
 </Members>
+
 
 
