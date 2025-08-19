@@ -20,5 +20,13 @@
       30 allowed for slave only.  
     ]]></Description>
   </Member>
+   <Member Name="Enable" DataType="ST" Dimension="" Radix="Decimal" Hidden="false" ExternalAccess="Read/Write">
+    <Description><![CDATA[
+      0 - Disable  
+      1 - Enable the command: Trigger allowed one and only.  
+      2 - Enable the command: Polling and trigger allowed only. 
+    ]]></Description>
+  </Member>
 </Members>
+
 
