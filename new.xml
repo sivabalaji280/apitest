@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Members>
   <Member Name="Function 1" DataType="SINT" Dimension="0" Radix="Decimal" Hidden="false" ExternalAccess="Read/Write">
     <Description><![CDATA[
